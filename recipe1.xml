@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="recipe.xsl"?>
+<!DOCTYPE recipe SYSTEM "r.dtd">
+        
+<recipe recipeID="recipe1" type="Baked">
+     <recipename>Mexican Wedding cookies</recipename>
+    <image> image2.jpg</image>
+    
+    <ingredients rid ="recipe1" >
+        <name>Butter</name>
+        <unit>1 cup</unit>
+        <substitute>Peanut Butter Cup</substitute>
+    </ingredients>
+    <ingredients rid ="recipe1">
+        <name>White Sugar</name>
+        <unit>1/2 cup</unit>
+        <substitute>NA</substitute>
+    </ingredients>
+    <ingredients rid="recipe1" >
+        <name>Vanilla Extract</name>
+        <unit>2 tsp</unit>
+        <substitute>Hazelnut Extract</substitute>
+    </ingredients>
+    <ingredients rid="recipe1">
+        <name>Water</name>
+        <unit>2 tsp </unit>
+        <substitute>NA</substitute>
+    </ingredients>
+    <ingredients rid="recipe1">
+        <name>All Purpose Flour</name>
+        <unit>2 cups </unit>
+        <substitute>NA</substitute>
+    </ingredients>
+    <ingredients rid="recipe1">
+        <name>Chopped Almonds</name>
+        <unit>1 cup </unit>
+        <substitute>NA</substitute>
+    </ingredients>
+    <ingredients rid="recipe1">
+        <name>confectioners' sugar</name>
+        <unit>1/2 cup </unit>
+        <substitute>NA</substitute>
+    </ingredients>
+
+
+    <directions> 
+        <step sid="recipe1">
+            1.In a medium bowl, cream the butter and sugar. Stir in vanilla and water. Add the
+            flour and almonds, mix until blended. Cover and chill for 3 hours.
+        </step> 
+        <step sid="recipe1"> 2.Preheat oven to 325
+            degrees.</step>
+        <step sid="recipe1">3.Shape dough into balls or crescents. Place on an unprepared cookie sheet and bake
+        for 15 to 20 minutes in the preheated oven. Remove from pan to cool on wire racks. 
+        </step> 
+        <step sid="recipe1">
+            4.When cookies are cool, roll in confectioners' sugar. Store at room temperature in an airtight
+        container. </step>
+    </directions>
+    
+    <serves people="7"></serves>
+    
+    <summary></summary>
+ </recipe>

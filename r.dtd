@@ -1,0 +1,27 @@
+<!NOTATION jpg SYSTEM "image/jpg" >
+<!--<!ENTITY DosaLogo SYSTEM "http://ksmartstatic.sify.com/cmf-1.0.0/appflow/bawarchi.com/Image/oeswvdhghfaaj_bigger.jpg" NDATA jpg>-->
+<!ELEMENT recipe (recipename, image, ingredients+, directions, serves, summary)>
+<!ATTLIST recipe recipeID ID #REQUIRED
+  type (Baked|Fried|Generic) #REQUIRED>
+
+<!ENTITY % ingredient SYSTEM "ingredient.mod">
+
+<!ENTITY % directions SYSTEM "instruction.mod">
+
+<!ELEMENT recipename (#PCDATA)>
+<!ELEMENT image (#PCDATA)>
+<!--<!ATTLIST image source ENTITY #REQUIRED>-->
+
+<!--ELEMENT ingredients (name+, unit+, substitute+)-->
+<!--ELEMENT name (#PCDATA)-->
+<!--ELEMENT unit (#PCDATA)-->
+<!--ELEMENT substitute (#PCDATA)-->
+
+<!ELEMENT serves (#PCDATA)>
+<!ATTLIST serves people (1|2|3|4|5|6|7) #REQUIRED >
+
+
+<!ELEMENT summary (#PCDATA)>
+%ingredient;
+
+%directions;

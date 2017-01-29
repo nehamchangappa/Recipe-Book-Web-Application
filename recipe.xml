@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="recipe.xsl"?>
+<!DOCTYPE recipe SYSTEM "r.dtd">
+<recipe recipeID="recipe2" type="Generic">
+    <recipename> Wheat Dosa Recipe </recipename>
+    <image> image1.JPG </image>
+    <ingredients rid ="recipe2">
+        <name>  Wheat flour </name>
+        <unit> 1/2 cup</unit>
+        <substitute>Atta</substitute>
+    </ingredients>
+    <ingredients rid ="recipe2">
+        <name>  rice flour </name>
+        <unit> 2 tbsp </unit>
+        <substitute> You can reduce to 1 tbsp to get soft dosa </substitute>
+    </ingredients >
+    <ingredients rid ="recipe2">
+        <name> Salt </name>
+        <unit> 1/2 tbsp</unit>
+        <substitute>NA</substitute>
+    </ingredients >
+    <ingredients rid ="recipe2">
+        <name>  Cumin </name>
+        <unit> A pinch </unit>
+        <substitute>NA</substitute>
+    </ingredients>
+    <ingredients rid ="recipe2">
+        <name>  Chopped Curry Leaves </name>
+        <unit> A few </unit>
+        <substitute>NA</substitute>
+    </ingredients>
+    <ingredients rid ="recipe2">
+        <name> Chopped Green Chillies </name>
+        <unit> 4 </unit>
+        <substitute>NA</substitute>
+    </ingredients>
+    <ingredients rid ="recipe2">
+        <name> Water </name>
+        <unit> 1 1/4 cup</unit>
+        <substitute>A little more or less water</substitute>
+    </ingredients>
+    <ingredients rid ="recipe2">
+        <name> Chopped Onions</name>
+        <unit> 2 tbsp </unit>
+        <substitute>NA</substitute>
+    </ingredients>
+    <ingredients rid ="recipe2">
+        <name>  Grated Ginger </name>
+        <unit> 1/4 tpsp</unit>
+        <substitute>NA</substitute>
+    </ingredients>
+    <ingredients rid ="recipe2">
+        <name>  Yogurt </name>
+        <unit> 1 tbsp </unit>
+        <substitute>NA</substitute>
+    </ingredients>
+    <directions>
+    <step sid="recipe2">
+    1. To make the wheat dosa, mix the flour, salt, chillies, curry leaves, onions, ginger
+        and cumin with water to make think runny batter. If using curd you can also add it now. &#xA;
+    </step>     
+    <step sid="recipe2">
+    2. If using a pan that doesn't have a non-stick coating, add few drops of oil smear it well. Rub the 
+    tawa with small piece of onion and heat it. 
+    </step>
+    <step sid="recipe2">
+    3.When the tawa is hot enough. Pour the batter thinly from a little height, do not spread it like normal
+    dosa.
+    </step>
+    <step sid="recipe2">
+    4. Drizzle some oil towards the edges. When it is cooked, raise the dosa with a wooden spoon.&#xA;
+    </step>
+    <step sid="recipe2">
+    5. Flip it and cook on the other side if the dosa is thick. Flip back and cook to get a crispy dosa. &#xA;
+    </step>
+    <step sid="recipe2">
+    6. To make more dosas, if the pan is very hot sprinkle little water. When the water evaporates, you can
+    make another dosa. 
+    </step>
+     <step sid="recipe2">
+     7. Serve wheat dosa with your favorite chutney 
+     </step>
+     </directions>
+    <serves people="7"></serves>
+    <summary>NUTRITION INFORMATION: Calories= 150 </summary>   
+</recipe>
